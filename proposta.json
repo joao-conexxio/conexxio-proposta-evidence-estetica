@@ -1,0 +1,314 @@
+{
+  "slug": "evidence-estetica",
+  "negocio": {
+    "nome": "Evidence Estética",
+    "logo": "brand/logo.png",
+    "whatsapp": "554730272952",
+    "telefone": "(47) 3027-2952",
+    "funcionamento": {
+      "seg": "08:00-21:00",
+      "ter": "08:00-21:00",
+      "qua": "08:00-21:00",
+      "qui": "08:00-21:00",
+      "sex": "08:00-21:00",
+      "sab": "08:00-12:00",
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Costa e Silva · Joinville",
+        "endereco": "Rua Dona Elza Meinert, 116, salas 02 a 04 – Costa e Silva, Joinville – SC, 89218-650",
+        "telefone": "(47) 3027-2952",
+        "horario": "Segunda a sexta, das 8h às 21h · sábado, das 8h ao meio-dia"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#871E69",
+    "brand2": "#5E1249",
+    "ink": "#2B1626",
+    "bg": "#FCF7F9",
+    "pulse": "#A8287E",
+    "radius": "18px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Montserrat",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "wow": {
+    "assinatura": "gradient-mesh"
+  },
+  "secoes": [
+    {
+      "id": "header",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Dia especial",
+            "href": "#dia-especial"
+          },
+          {
+            "texto": "Depoimentos",
+            "href": "#depoimentos"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Massagem e pele · Joinville",
+        "h1": "Massagem e pele cuidadas sem pressa",
+        "lead": "Drenagem, massagem modeladora e relaxante, limpeza de pele e peeling no Costa e Silva, numa clínica conduzida pela Duda há 23 anos.",
+        "cta": "Agendar pelo WhatsApp",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/sala-maca.jpg",
+        "imagemAlt": "Sala de atendimento da Evidence Estética, com maca forrada em tons de rosa e luz baixa",
+        "tarja": [
+          "5,0 no Google, 382 avaliações",
+          "23 anos no mercado",
+          "Segunda a sexta até 21h",
+          "Massagem para casal"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Drenagem linfática",
+          "Massagem modeladora",
+          "Massagem relaxante",
+          "Limpeza de pele",
+          "Dermaplaning",
+          "Peeling",
+          "Ventosaterapia",
+          "Relax ocular",
+          "Depilação"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "data": {
+        "eyebrow": "A casa",
+        "citacao": "Cada atendimento carrega a marca do cuidado, da técnica e do gosto pelo que se faz.",
+        "autor": "Duda, fundadora da Evidence",
+        "texto": [
+          "A Evidence começou com a Ingelore, a Duda, e hoje atende também com as profissionais parceiras Regina Dreyer e Gisele Chen, do jeito dela: hora marcada, sala arrumada para cada cliente, ninguém apressado na saída.",
+          "Tem cliente que vem toda semana para a drenagem e cliente que vem uma vez por ano se dar um presente. As duas são recebidas do mesmo jeito."
+        ],
+        "imagem": "midia/duda.jpg",
+        "imagemAlt": "Ingelore, a Duda, fundadora da Evidence Estética, de jaleco branco"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "O que dá para fazer na Evidence",
+        "lead": "Corpo, rosto e um tempo para descansar. Na primeira visita, a equipe conversa com você antes de indicar o cuidado.",
+        "itens": [
+          {
+            "nome": "Drenagem linfática",
+            "descricao": "Movimentos leves e ritmados que ajudam com o inchaço e a retenção de líquidos. Pedida por quem passa o dia em pé ou sentada.",
+            "icone": "gota",
+            "imagem": "midia/sala-cortina.jpg"
+          },
+          {
+            "nome": "Massagem modeladora",
+            "descricao": "Manobras firmes, em sessões seguidas, para quem está cuidando do contorno do corpo junto com alimentação e exercício.",
+            "icone": "mao"
+          },
+          {
+            "nome": "Massagem relaxante e para casal",
+            "descricao": "Um tempo para soltar a tensão dos ombros e das costas, com técnica com óleos. Pode ser feita a dois, na mesma sala.",
+            "icone": "spa",
+            "imagem": "midia/luz.jpg"
+          },
+          {
+            "nome": "Limpeza de pele",
+            "descricao": "Higienização, extração e máscara, no ritmo da sua pele. É o cuidado mais lembrado nas avaliações da clínica.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Dermaplaning e peeling",
+            "descricao": "Renovação da camada mais superficial da pele, para textura mais lisa e uma maquiagem que assenta melhor.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Ventosaterapia e relax ocular",
+            "descricao": "Ventosas para a musculatura carregada e um cuidado específico para o contorno dos olhos cansados.",
+            "icone": "olho"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/ritual.html"
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "A Evidence em números",
+        "itens": [
+          {
+            "valor": "5,0",
+            "rotulo": "nota no Google"
+          },
+          {
+            "valor": "382",
+            "rotulo": "avaliações de clientes",
+            "contar": 382
+          },
+          {
+            "valor": "23",
+            "rotulo": "anos no mercado",
+            "contar": 23
+          },
+          {
+            "valor": "35",
+            "rotulo": "avaliações falam da limpeza de pele",
+            "contar": 35
+          }
+        ]
+      }
+    },
+    {
+      "id": "conversa",
+      "data": {
+        "eyebrow": "Agendar é uma mensagem",
+        "titulo": "Do presente ao horário marcado, pelo WhatsApp",
+        "lead": "Quem atende é a própria clínica, no mesmo número fixo de sempre.",
+        "cta": "Chamar a Evidence",
+        "contato": "Evidence Estética",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Quero dar uma massagem de presente para a minha mãe. Como funciona?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Oi! Que presente bom. Dá para fazer massagem relaxante e, se ela quiser, limpeza de pele no mesmo dia."
+          },
+          {
+            "de": "paciente",
+            "texto": "Sábado de manhã tem horário?"
+          },
+          {
+            "de": "clinica",
+            "texto": "No sábado atendemos das 8h ao meio-dia. Tenho às 9h, posso reservar no nome dela?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "O que as clientes escrevem",
+        "itens": [
+          {
+            "texto": "Realizei algumas sessões de massagem terapêutica e me senti acolhida, respeitada e confortável durante todo o atendimento.",
+            "autor": "Nathalia Philippe",
+            "contexto": "Massagem terapêutica"
+          },
+          {
+            "texto": "Eu e minha esposa tivemos uma experiência maravilhosa na massagem para casal.",
+            "autor": "Adilson Freitas",
+            "contexto": "Massagem para casal"
+          },
+          {
+            "texto": "Há anos sou cliente da clínica e recomendo. Agradecimento especial à Duda e à massagista Regina.",
+            "autor": "Diana Cristina da Silva",
+            "contexto": "Cliente de longa data"
+          }
+        ]
+      }
+    },
+    {
+      "id": "galeria",
+      "variant": "faixa",
+      "data": {
+        "titulo": "Por dentro da clínica",
+        "lead": "Salas no Costa e Silva, com recepção e cantinho de chá.",
+        "itens": [
+          {
+            "imagem": "midia/mesa-flores.jpg",
+            "legenda": "A mesa da recepção"
+          },
+          {
+            "imagem": "midia/poltrona.jpg",
+            "legenda": "Canto de descanso"
+          },
+          {
+            "imagem": "midia/sala-cortina.jpg",
+            "legenda": "Sala de atendimento"
+          },
+          {
+            "imagem": "midia/luz.jpg",
+            "legenda": "Corredor das salas"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Perguntas que chegam no WhatsApp",
+        "itens": [
+          {
+            "p": "Vocês atendem à noite e no sábado?",
+            "r": "Sim. De segunda a sexta, das 8h às 21h, e no sábado das 8h ao meio-dia. Domingo a clínica fecha."
+          },
+          {
+            "p": "Dá para fazer massagem em casal?",
+            "r": "Dá. Os dois são atendidos juntos, na mesma sala. Vale combinar o horário com antecedência pelo WhatsApp."
+          },
+          {
+            "p": "Posso dar uma sessão de presente?",
+            "r": "Pode. Fale com a clínica pelo WhatsApp: vocês escolhem juntos o cuidado e o horário fica no nome de quem vai receber."
+          },
+          {
+            "p": "A clínica tem acessibilidade?",
+            "r": "Tem entrada, banheiro, assento e estacionamento acessíveis para cadeira de rodas."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Reserve um horário só seu",
+        "lead": "Uma mensagem para o (47) 3027-2952 e a Evidence encontra o melhor horário para você.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer"
+    }
+  ]
+}

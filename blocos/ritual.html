@@ -1,0 +1,60 @@
+<section class="blk-rt" id="dia-especial">
+  <div class="wrap">
+    <div class="blk-rt__cab" data-reveal>
+      <p class="blk-rt__eyebrow">Dia especial</p>
+      <h2 class="blk-rt__titulo">Uma tarde que começa com chá e termina mais leve</h2>
+      <p class="blk-rt__lead" data-acende>É assim que as clientes contam a visita nas avaliações: a recepção com flores, a sala de luz baixa, a massagem sem pressa. Dá para vir sozinha, presentear alguém ou trazer o par.</p>
+    </div>
+    <ol class="blk-rt__lista">
+      <li class="blk-rt__item" data-reveal style="--d:0ms">
+        <div class="blk-rt__foto"><!--foto:midia/recepcao-logo.jpg|Mesa da recepção da Evidence Estética com flores, garrafa de chá e xícaras, sob o logo da clínica--></div>
+        <div class="blk-rt__txt">
+          <span class="blk-rt__n">01</span>
+          <h3>O chá da recepção</h3>
+          <p>Antes de entrar na sala, tem chá servido na mesa da recepção, entre flores.</p>
+          <blockquote>"Obs: o chazinho é uma delícia." <cite>Nathalia, no Google</cite></blockquote>
+        </div>
+      </li>
+      <li class="blk-rt__item" data-reveal style="--d:90ms">
+        <div class="blk-rt__foto"><!--foto:midia/sala-maca.jpg|Sala de atendimento com maca forrada, luz baixa e plantas--></div>
+        <div class="blk-rt__txt">
+          <span class="blk-rt__n">02</span>
+          <h3>A sala preparada</h3>
+          <p>Maca arrumada, luz baixa e cheiro bom. Para casal, a sala recebe os dois juntos.</p>
+          <blockquote>"Lugar lindo, cheiroso e muito agradável." <cite>Vanessa, no Google</cite></blockquote>
+        </div>
+      </li>
+      <li class="blk-rt__item" data-reveal style="--d:180ms">
+        <div class="blk-rt__foto"><!--foto:midia/poltrona.jpg|Canto de descanso com poltrona rosa e o logo da clínica na parede--></div>
+        <div class="blk-rt__txt">
+          <span class="blk-rt__n">03</span>
+          <h3>A saída sem pressa</h3>
+          <p>Depois do atendimento, a cliente descansa um pouco antes de voltar para o dia.</p>
+          <blockquote>"Saí de lá me sentindo leve, relaxada e renovada." <cite>Cristina, no Google</cite></blockquote>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-rt{padding-block:var(--sp-section);background:color-mix(in srgb,var(--brand) 6%,var(--bg))}
+.blk-rt__cab{max-width:46rem;margin-bottom:var(--sp-5)}
+.blk-rt__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--pulse)}
+.blk-rt__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-rt__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-rt__lista{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-4)}
+.blk-rt__item{display:grid;gap:var(--sp-3);background:var(--bg);border-radius:var(--radius);overflow:hidden;box-shadow:0 1px 0 color-mix(in srgb,var(--brand) 12%,transparent)}
+.blk-rt__foto{aspect-ratio:4/3;overflow:hidden}
+.blk-rt__foto img{width:100%;height:100%;object-fit:cover;display:block}
+.blk-rt__txt{padding:0 var(--sp-3) var(--sp-4)}
+.blk-rt__n{font-family:var(--f-body);font-size:var(--t-label);letter-spacing:.12em;color:var(--pulse)}
+.blk-rt__item h3{margin:var(--sp-1) 0 var(--sp-2);font-family:var(--f-display);font-size:1.6rem;line-height:1.15;color:var(--ink)}
+.blk-rt__item p{margin:0;color:color-mix(in srgb,var(--ink) 75%,transparent)}
+.blk-rt__item blockquote{margin:var(--sp-3) 0 0;padding-top:var(--sp-3);border-top:1px solid color-mix(in srgb,var(--pulse) 30%,transparent);font-family:var(--f-display);font-size:1.15rem;font-style:italic;line-height:1.4;color:var(--brand)}
+.blk-rt__item cite{display:block;margin-top:.4rem;font-family:var(--f-body);font-style:normal;font-size:var(--t-label);letter-spacing:.04em;color:color-mix(in srgb,var(--ink) 58%,transparent)}
+@media (min-width:900px){
+  .blk-rt__lista{grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--sp-4)}
+  .blk-rt__foto{aspect-ratio:3/4}
+}
+</style>
